@@ -1,4 +1,203 @@
 
+.whitebutton {
+	border: 2px solid white;
+	background: none;
+	color: white;
+	transition: 0.5s;
+}
+
+.whitebutton p {
+	margin: 5px;
+}
+
+.whitebutton:hover {
+	background-color: white;
+}
+
+.whitebutton:hover p {
+	background: linear-gradient(to right, rgb(50, 187, 103), rgb(49, 122, 201));
+	-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.colorbutton {
+	border-width: 2px;
+	border-style: solid;
+	border-image: linear-gradient(to right, rgb(50, 187, 103), rgb(49, 122, 201));
+	border-image-slice: 1;
+	background: none;
+	transition: 0.5s;
+}
+
+.colorbutton p {
+	background: linear-gradient(to right, rgb(50, 187, 103), rgb(49, 122, 201));
+	-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+	margin: 5px;
+	-webkit-transition: background 0.3s ease-in-out
+}
+
+.colorbutton h2 {
+	background: linear-gradient(to right, rgb(50, 187, 103), rgb(49, 122, 201));
+	-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+	margin: 5px;
+	-webkit-transition: background 0.3s ease-in-out
+}
+
+.colorbutton:hover {
+	background: linear-gradient(to right, rgb(50, 187, 103), rgb(49, 122, 201));
+}
+
+.colorbutton:hover p{
+	background: white;
+	-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.colorbutton:hover h2{
+	background: white;
+	-webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.about {
+	text-align: center;
+}
+
 .about div {
 	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
+
+.projects h1 {
+	text-align: center;
+}
+
+.projects div {
+	display: flex;
+}
+
+.desc-w-btns {
+	padding: 10px;
+	padding-left: 5%;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.heading {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 40px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contact {
+	color: white;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+img {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about {
+	color: white;
+	margin-bottom: 40px;
+}
+
+.projects {
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.project {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+.proj-desc {
+	padding-right: 40px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: baseline;
+	width: 300px;
+	margin-top: 0px;
+}
+
+.proj-desc h2 {
+	margin: 0px;
+}
+
+.proj-desc button {
+	width: fit-content;
+	margin-right: 10px;
+}
+
+footer {
+	background-color: rgb(65, 64, 64);
+	box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+footer button {
+	background: none;
+	border: none;
+	color: white;
+	margin: 10px;
+	transition: 0.3s;
+}
+
+footer button:hover {
+	color: rgb(184, 184, 184);
+}
+
+hr {
+	width: 80%;
+	border-radius: 5px;
+	border: 1px solid rgb(129, 129, 129);
+	margin: 0;
+	margin-top: 20px;
+}
+
+footer p {
+	color: rgb(177, 177, 177);
+}
+
+footer a {
+	color: rgb(177, 177, 177);
+}
+
+footer a:hover {
+	color: rgb(201, 201, 201);
+}
+
+body {
+	margin: 0;
+	background-image: linear-gradient(to right, rgb(50, 187, 103), rgb(49, 122, 201));
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
