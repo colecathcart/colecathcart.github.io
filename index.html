@@ -6,19 +6,24 @@
 		<script src="https://kit.fontawesome.com/e4cd639041.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
-		<div class="heading">
+		<div class="heading" id="heading">
 			<div>
 				<h1>Cole Cathcart</h1>
-				<button class="colorbutton"><h2>my online portfolio</h2></button>
+				<button class="colorbutton" onclick="location.href='#about'"><h2>my online portfolio</h2></button>
 			</div>
 		</div>
-		<div class="about">
+		<div class="about" id="about">
 			<h1>ABOUT ME</h1>
 			<div>
-				<img src="images/mountain.jpg" alt="profile picture" width="200" height="200">
-				<div class="desc-w-btns">
-					<p>I am epic!</p>
-					<button class="whitebutton"><p><b>View Resume</b></p></button>
+				<img class="about-img" src="images/profile.png" alt="profile picture" width="200" height="200">
+				<div class="about-desc">
+					<p>
+						I am a recent Computer Science graduate, passionate about 
+						learning new things and growing my skills in software.
+						A team player who excels at communicating solutions to complex problems. 
+						Never afraid to ask questions or help others with theirs.
+					</p>
+					<button class="whitebutton" onclick="window.open('https://drive.google.com/file/d/1Eg-qZ-9tHsokDbghj1edGEkehSxNhQ9H/view?usp=sharing')"><p><b>View Resume</b></p></button>
 				</div>
 			</div>
 		</div>
@@ -27,10 +32,16 @@
 			<div class="project">
 				<div class="proj-desc">
 					<h2>DM Screen</h2>
-					<p>Epic DM Screen project!</p>
+					<p>
+						A full-stack tool for running games of Dungeons and Dragons!
+						Allows users to quickly lookup rules and items (or even create their own!)
+						while simultaneously using other online resources. 
+						A NodeJS + Express backend server facilitates queries between the React client,
+						a MongoDB database and an external REST API. 
+					</p>
 					<div>
-						<button class="colorbutton"><p><b>live demo</b></p></button>
-						<button class="colorbutton"><p><b>github</b></p></button>
+						<!--<button class="colorbutton"><p><b>live demo</b></p></button>-->
+						<button class="colorbutton" onclick="window.open('https://github.com/colecathcart/DMScreen-project')"><p><b>github</b></p></button>
 					</div>
 				</div>
 				<img src="images/mountain.jpg" alt="profile picture" width="200" height="200">
@@ -38,9 +49,13 @@
 			<div class="project">
 				<div class="proj-desc">
 					<h2>Kanban Board Task Manager</h2>
-					<p>Epic Kanban board project!</p>
+					<p>
+						Kanban-board webapp that I developed with a team for a school project.
+						Allows users to create and share boards, post and comment on tasks,
+						and message teammates! React + TypeScript used for the client, NodeJS + Express & MongoDB used for the backend.
+					</p>
 					<div>
-						<button class="colorbutton"><p><b>github</b></p></button>
+						<button class="colorbutton" onclick="window.open('https://github.com/colecathcart/seng513-project')"><p><b>github</b></p></button>
 					</div>
 				</div>
 				<img src="images/mountain.jpg" alt="profile picture" width="200" height="200">
@@ -48,9 +63,13 @@
 			<div class="project">
 				<div class="proj-desc">
 					<h2>Grocery Store Database</h2>
-					<p>Epic grocery store database project!</p>
+					<p>
+						University project that uses a simple React webapp to demonstrate the practical
+						usage of a relational MySQL database. Tables containing everything from product quantities
+						to employee departments are created, queried, and updated based on the user's actions!
+					</p> 
 					<div>
-						<button class="colorbutton"><p><b>github</b></p></button>
+						<button class="colorbutton" onclick="window.open('https://github.com/colecathcart/Online-grocery-project')"><p><b>github</b></p></button>
 					</div>
 				</div>
 				<img src="images/mountain.jpg" alt="profile picture" width="200" height="200">
@@ -58,9 +77,13 @@
 			<div class="project">
 				<div class="proj-desc">
 					<h2>Go Compiler</h2>
-					<p>Epic Go compiler project!</p>
+					<p>
+						A scratch-built compiler for a simplified subset of the Go programming language. 
+						This complex project is composed of several classes which break the task down into steps
+						and demonstrate proper Object-Oriented Programming and documentation. Made using C++.
+					</p>
 					<div>
-						<button class="colorbutton"><p><b>github</b></p></button>
+						<button class="colorbutton" onclick="window.open('https://github.com/colecathcart/Compiler-Project')"><p><b>github</b></p></button>
 					</div>
 				</div>
 				<img src="images/mountain.jpg" alt="profile picture" width="200" height="200">
@@ -68,10 +91,15 @@
 			<div class="project">
 				<div class="proj-desc">
 					<h2>True Randomness Generator</h2>
-					<p>Epic TRNG project!</p>
+					<p>
+						A research project exploring the viability of human gameplay (from the board game 'Battleship')
+						as an entropy source for true random number generation. Our experiment evaluated both the speed
+						and quality of random numbers produced from this source. Data processing and mathematical randomness testing was performed
+						using Python.
+					</p>
 					<div>
-						<button class="colorbutton"><p><b>findings paper</b></p></button>
-						<button class="colorbutton"><p><b>github</b></p></button>
+						<button class="colorbutton" onclick="window.open('https://drive.google.com/file/d/1BjGSivjr__VvIEMPRMueBl7sptZDDUik/view?usp=sharing')"><p><b>project report</b></p></button>
+						<button class="colorbutton" onclick="window.open('https://github.com/colecathcart/CPSC-530-Project')"><p><b>github</b></p></button>
 					</div>
 				</div>
 				<img src="images/mountain.jpg" alt="profile picture" width="200" height="200">
@@ -79,17 +107,18 @@
 		</div>
 		<div class="contact">
 			<h1>CONTACT ME</h1>
-			<p>I'd love to chat!</p>
+			<p>I'm eager to become a strong addition to your team!</p>
 			<button class="whitebutton"><p><b>cole.cathcart@icloud.com</b></p></button>
 		</div>
 		<footer>
-			<button><i class="fa-solid fa-chevron-up fa-lg"></i></button>
+			<button onclick="location.href='#heading'"><i class="fa-solid fa-chevron-up fa-lg"></i></button>
 			<div>
-				<button><i class="fa-brands fa-github fa-2xl"></i></button>
-				<button><i class="fa-brands fa-linkedin-in fa-2xl"></i></button>
+				<button onclick="window.open('https://github.com/colecathcart')"><i class="fa-brands fa-github fa-2xl"></i></button>
+				<button onclick="window.open('https://www.linkedin.com/in/cole-cathcart-b20123262/')"><i class="fa-brands fa-linkedin-in fa-2xl"></i></button>
 			</div>
 			<hr>
-			<p>Created with HTML & CSS. Design based on  <a href="https://github.com/cobiwave/simplefolio">Simplefolio</a></p>
+			<p>Created with HTML & CSS. <a href="https://github.com/colecathcart/colecathcart.github.io">View the Github</a> for this page</p> 
+			<p>Design based on  <a href="https://github.com/cobiwave/simplefolio">Simplefolio</a></p>
 		</footer>
 	</body>
 </html>
