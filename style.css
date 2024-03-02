@@ -145,7 +145,7 @@ img {
 }
 
 .project img {
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 }
 
 .proj-desc {
@@ -155,7 +155,7 @@ img {
 	flex-direction: column;
 	flex-wrap: wrap;
 	width: 400px;
-	margin-top: 2px;
+	margin-top: 0px;
 	margin-bottom: 40px;
 }
 
