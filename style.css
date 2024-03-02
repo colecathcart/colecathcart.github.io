@@ -43,7 +43,8 @@
 	-webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 	margin: 5px;
-	-webkit-transition: background 0.3s ease-in-out
+	-webkit-transition: background 0.3s ease-in-out;
+	font-size: medium;
 }
 
 .colorbutton:hover {
@@ -113,8 +114,8 @@
 
 img {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	height: 200px;
 	width: 300px;
+	height: auto;
 }
 
 .about-img {
@@ -133,13 +134,14 @@ img {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	font-size: large;
+	font-size: small;
 }
 
 .project {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	margin-bottom: 20px;
 }
 
 .project img {
@@ -153,8 +155,12 @@ img {
 	flex-direction: column;
 	flex-wrap: wrap;
 	width: 400px;
-	margin-top: 0px;
+	margin-top: 2px;
 	margin-bottom: 40px;
+}
+
+.proj-desc p {
+	color: rgb(56, 56, 56);
 }
 
 .proj-desc h2 {
@@ -167,6 +173,10 @@ img {
 }
 
 @media only screen and (min-width: 400px) {
+	
+	.projects {
+		font-size: large;
+	}
 	.about-img {
 		width: 300px;
 		height: 300px;
@@ -176,7 +186,13 @@ img {
 @media only screen and (min-width: 500px) {
 	img {
 		width: 400px;
-		height: 300px;
+		height: auto;
+	}
+	h1 {
+		font-size: 3rem;
+	}
+	.colorbutton h2 {
+		font-size: x-large;
 	}
 }
 
@@ -186,12 +202,17 @@ img {
 	}
 	img {
 		width: 500px;
-		height: 350px;
 	}
 }
 
 @media only screen and (min-width: 800px) {
 	
+	.heading h1 {
+		font-size: 4rem;
+	}
+	.colorbutton h2 {
+		font-size: xx-large;
+	}
 	.proj-desc {
 		text-align: left;
 		align-items: flex-start;
@@ -199,7 +220,6 @@ img {
 	}
 	img {
 		width: 600px;
-		height: 400px;
 	}
 }
 
@@ -214,26 +234,26 @@ img {
 @media only screen and (min-width: 900px) {
 	img {
 		width: 700px;
-		height: 450px;
 	}
 }
 
 @media screen and (min-width: 1100px) {
 	
+	.heading h1 {
+		font-size: 5rem;
+	}
 	.proj-desc {
 		width: 400px;
 		margin-right: 40px;
 	}
 	img {
 		width: 600px;
-		height: 400px;
 	}
 }
 
 @media only screen and (min-width: 1250px) {
 	img {
 		width: 750px;
-		height: 500px;
 	}
 }
 
