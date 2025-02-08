@@ -19,12 +19,12 @@
 				<img class="about-img" src="images/profile.png" alt="profile picture" width="200" height="200">
 				<div class="about-desc">
 					<p>
-						I am a recent Computer Science graduate, passionate about 
+						I am a M.Eng Software student, passionate about 
 						learning new things and growing my skills in software.
 						A team player who excels at communicating solutions to complex problems. 
 						Never afraid to ask questions or help others with theirs.
 					</p>
-					<button class="whitebutton" onclick="window.open('https://drive.google.com/file/d/1Eg-qZ-9tHsokDbghj1edGEkehSxNhQ9H/view?usp=sharing')"><p><b>View Resume</b></p></button>
+					<button class="whitebutton" onclick="window.open('https://drive.google.com/file/d/1fNv4QQt4lrJ1GpOtM_D3__IgBDf7gwNK/view?usp=sharing')"><p><b>View Resume</b></p></button>
 				</div>
 			</div>
 		</div>
@@ -32,13 +32,44 @@
 			<h1>PROJECTS</h1>
 			<div class="project">
 				<div class="proj-desc">
+					<h2>Cisco Systems Ransomware Detector</h2>
+					<p>
+						Capstone project for Cisco Systems to develop a proof-of-concept defense against the growing threat of
+						ransomware attacks on linux. Our solution uses entropy measurements to scan the filesystem for 
+						malicious encryptions and shut down offending processes. Implemented with an Object-Oriented design
+						in C++, with extra consideration for optimizing CPU and memory performance.
+					</p>
+					<div>
+						<button class="colorbutton" onclick="window.open('https://github.com/colecathcart/609Capstone')"><p><b>github</b></p></button>
+					</div>
+				</div>
+				<img src="images/capstone.png" alt="profile picture">
+			</div>
+			<div class="project">
+				<div class="proj-desc">
+					<h2>AI-powered Itinerary Builder</h2>
+					<p>
+						Full-stack web application that harnesses OpenAI's Gpt-4o mini model to create
+						road trip itineraries. A sleek and user-friendly NextJS frontend communicates to the LLM and a MongoDB
+						database through a RESTful NodeJS + Express backend API. Secure user authentication is achieved
+						through firebase tokens.
+					</p>
+					<div>
+						<button class="colorbutton" onclick="window.open('https://trailblaze-webapp.vercel.app/')"><p><b>live demo</b></p></button>
+						<button class="colorbutton" onclick="window.open('https://github.com/nathanbrz/TrailBlazeWebApp')"><p><b>github</b></p></button>
+					</div>
+				</div>
+				<img src="images/trailblaze.png" alt="profile picture">
+			</div>
+			<div class="project">
+				<div class="proj-desc">
 					<h2>DM Screen</h2>
 					<p>
 						A full-stack tool for running games of Dungeons and Dragons!
-						Allows users to quickly lookup rules and items (or even create their own!)
+						Allows users to quickly lookup rules and items (or even create their own)
 						while simultaneously using other online resources. 
 						A NodeJS + Express backend server facilitates queries between the React client,
-						a MongoDB database and an external REST API. 
+						a MongoDB database and an external API. Secure user authentication with JWTs.
 					</p>
 					<div>
 						<button class="colorbutton" onclick="window.open('https://murmuring-eyrie-20813-8756f01191e8.herokuapp.com')"><p><b>live demo</b></p></button>
@@ -49,39 +80,12 @@
 			</div>
 			<div class="project">
 				<div class="proj-desc">
-					<h2>Kanban Board Task Manager</h2>
-					<p>
-						Kanban-board webapp that I developed with a team for a school project.
-						Allows users to create and share boards, post and comment on tasks,
-						and message teammates! React + TypeScript used for the client, NodeJS + Express & MongoDB used for the backend.
-					</p>
-					<div>
-						<button class="colorbutton" onclick="window.open('https://github.com/colecathcart/seng513-project')"><p><b>github</b></p></button>
-					</div>
-				</div>
-				<img src="images/2do.png" alt="profile picture" width="200" height="200">
-			</div>
-			<div class="project">
-				<div class="proj-desc">
-					<h2>Grocery Store Database</h2>
-					<p>
-						University project that uses a simple React webapp to demonstrate the practical
-						usage of a relational MySQL database. Tables containing everything from product quantities
-						to employee departments are created, queried, and updated based on the user's actions!
-					</p> 
-					<div>
-						<button class="colorbutton" onclick="window.open('https://github.com/colecathcart/Online-grocery-project')"><p><b>github</b></p></button>
-					</div>
-				</div>
-				<img src="images/grocerystore.png" alt="profile picture" width="200" height="200">
-			</div>
-			<div class="project">
-				<div class="proj-desc">
 					<h2>Go Compiler</h2>
 					<p>
 						A scratch-built compiler for a simplified subset of the Go programming language. 
 						This complex project is composed of several classes which break the task down into steps
-						and demonstrate proper Object-Oriented Programming and documentation. Made using C++.
+						and demonstrate proper Object-Oriented Programming style. Tree-based data structures and symbol tables
+						are used to keep track of variable scope and syntax errors. Made using C++.
 					</p>
 					<div>
 						<button class="colorbutton" onclick="window.open('https://github.com/colecathcart/Compiler-Project')"><p><b>github</b></p></button>
